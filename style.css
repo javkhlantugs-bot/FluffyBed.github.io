@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600;700&Comfortaa:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&display=swap');
+:root{
+    --color-primary: #AED9E0;
+    --color-accent: #D3D3D3;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-black-background: #000000;
+}
+
+.dark-mode_variables{
+    --color-background: #181a2e;
+    --color-white-background: #ffffff;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: rgba(0,0,0,0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.header{
+    text-align: center;
+    background-color: #AED9E0;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+header h4{
+    color: var( --color-background);
+    font-size: 20px;
+}
+
+.intro{
+    background-image: url(assets/images/2.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    min-height: 50vh;
+    /* color-scheme: ; */
+}
+
+.name-container{
+    font-family: "Comfortaa";
+    font-size: 34px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.firstName{
+    font-family: "Comfortaa";
+    color: var(--color-primary);
+    
+}
+
+
+
+
+.secondaryName{
+    color: var(--color-accent);
+    font-family: "Comfortaa";
+    font-size: 34px;
+}
+
+.description{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.videos{
+    max-height: 100vh;
+}
+
+.videos::-webkit-scrollbar{
+    width: 0;
+}
+
+.videos .video{
+    width: 60vh;
+    height: 100vh;
+    background-color: #ddd;
+    margin-right: 2px;
+}
